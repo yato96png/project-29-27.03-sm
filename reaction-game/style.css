@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#reaction-btn {
+  padding: 20px 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#reaction-btn.ready {
+  background-color: green;
+}
+
+#reaction-btn.too-early {
+  background-color: red;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #e74c3c;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #27ae60;
+}
+
+#average-time {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #2980b9;
+}
